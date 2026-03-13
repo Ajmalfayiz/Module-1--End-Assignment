@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourify</title>
+    <!-- bootstrap css style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- icon cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- custom css style -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<!-- body starts -->
+
+<body>
+
+    <!-- header starts -->
+
+    <header>
+
+        <!-- nav starts -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="nav navbar-brand fw-bold" href="#">Fly<span class="spanNew">Vista.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destination.html">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">Features</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex gap-3">
+                        <button class="btn btn-outline-primary" type="submit"> <a class="login" href="login.html"
+                                id="#contact">Login</a> </button>
+                        <button class="btn btn-primary" type="submit"><a class="signup" href="signup.html">Sign up</a>
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- nav ends -->
+
+        <!-- header ends -->
+    </header>
+
+    <!-- main starts -->
+    <main>
+
+        <!-- section starts -->
+        <section class="hero text-dark py-5 ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 ">
+                        <img src="images/img01.jpeg" alt="travel image" class="image img-fluid rounded-circle shadow ">
+                    </div>
+                    <div class="col-lg-6  py-5 ">
+                        <h1 class="display-4 fw-bold mb-4"> <span>Discover the World</span> Like Never Before</h1>
+                        <p class="lead fs-5 mb-5">Adventure, relaxation, and discovery all in one place. Explore
+                            handpicked destinations, plan your journey effortlessly, and create memories that will last
+                            a lifetime.</p>
+
+                        <button class="btn btn-outline-primary " type="submit">Take a Look</button>
+                    </div>
+
+                    <div
+                        class="small-div bg-light rounded-4 col-12 col-lg-10 col-xl-10 d-flex flex-wrap justify-content-lg-center justify-content-xl-around justify-content-center gap-4 mx-auto shadow">
+                        <div>
+                            <select class="form-select overflow-auto text-muted" id="location">
+                                <option value="">Location</option>
+                                <option value="">London</option>
+                                <option value="">Lakshadweep</option>
+                                <option value="">Bali</option>
+                                <option value="">Singapore</option>
+                                <option value="">Kashmir</option>
+                                <option value="">Bangalore</option>
+                                <option value="">Austarlia</option>
+                                <option value="">Goa</option>
+                                <option value="">Nepal</option>
+                                <option value="">Paris</option>
+                            </select>
+                            <label class="text-muted">
+                                <placeholder class="bagde fw-bold ms-2">where are you going</placeholder>
+                            </label>
+                        </div>
+
+                        <div>
+                            <input class="form-select text-dark" placeholder="Guest" type="number">
+                            <label class="text-muted">
+                                <placeholder class="bagde fw-bold ms-2">Number of Guest</placeholder>
+                            </label>
+                        </div>
+
+                        <div>
+                            <input class="form-select text-muted" type="date" id="">
+                            <label class="text-muted">
+                                <placeholder class="bagde fw-bold ms-2">when you will go</placeholder>
+                            </label>
+                        </div>
+
+                        <div class=" mt-lg-3 mb-3  ">
+                            <button class="button-b btn btn-primary" type="submit">Check It Out</button>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section ends -->
+
+        <!-- section starts -->
+
+        <section>
+            <div class="container py-5">
+                <h2 class="display-6 fw-bold text-center nb-5 mb-4 ">What You <span>Need to Do</span> Next </h2>
+
+                
+                <p class=" text-muted text-center py-2">We ensure that you'll embark on a perfectly planned, safe
+                    vacation at a price you can afford.</p>
+
+                <div
+                    class="bg-light rounded-4 col-12 col-lg-10 col-xl-12 d-flex flex-wrap justify-content-center justify-content-lg-around justify-content-xl-center  gap-4 mx-auto shadow">
+                    <div class="col-11 col-md-10 col-lg-3 col-xl-3 my-3">
+                        <div class="card-icon shadow pb-3 rounded-4">
+
+                            <img src="icons/signup.png" alt="signup icon" class="icons">
+
+                            <div class="card-body pt-3">
+                                <h5 class="card-title fw-bold text-center">Sign Up</h5>
+                                <p class=" card-text text-center ">Completes all the work associated with planning and
+                                    processing</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-11 col-md-10 col-lg-3 col-xl-3 my-3">
+                        <div class="card-icon shadow pb-3 rounded-4">
+
+                            <img src="icons/wallet.png" alt="wallet icon" class="icons">
+
+                            <div class="card-body pt-3">
+                                <h5 class="card-title fw-bold text-center">Worth of Money</h5>
+                                <p class="card-text text-center">After successful access then book from exclusive deals
+                                    & pricing</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-11 col-md-10 col-lg-3 col-xl-3 my-3 ">
+                        <div class="card-icon shadow pb-3 rounded-4">
+
+                            <img src="icons/travel.png" alt="travel icon" class="icons">
+
+                            <div class="card-body pt-3">
+                                <h5 class="card-title fw-bold text-center">Exciting Travel</h5>
+                                <p class="card-text text-center">Start and explore a wide range of exciting travel
+                                    experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- section ends -->
+
+
+        <!-- main ends -->
+    </main>
+
+    <!-- footer starts -->
+
+    <footer class="bg-primary text-light d-flex align-items-center ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="para1">@2026 Ajmal fayiz . All rights reserved</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end ">
+                    <a href="https://github.com/Ajmalfayiz" target="_blank" class="text-light me-3 fs-4 "><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ajmalfayiz/" target="_blank" class="text-light me-3 fs-4 "><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/ajmal___aju_" target="_blank" class="text-light me-3 fs-4 "><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div>
+                    <p class="d-flex justify-content-center  text-light">Terms & Conditions</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- footer ends -->
+
+    <!-- bootsrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<!-- body ends -->
+
+</html>

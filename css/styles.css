@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    color: #7c7676;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+main {
+    margin-top: 65px;
+    background-color: #F5FCFF;
+}
+
+.spanNew {
+    color: #3580b8;
+}
+
+.form-select {
+    border: 1px solid #3580b8;
+    width: 180px;
+    margin-top: 15px;
+}
+
+.signupDiv{
+background-color: white;
+}
+
+placeholder {
+    font-size: small;
+}
+
+footer {
+    height: 120px;
+    padding-top: 10px;
+}
+
+.cards {
+    width: 200px;
+    height: 200px;
+}
+
+.card-titles{
+    padding-top: 10px;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.s-m-icon{
+    width: 25px;
+    height: 25px;
+}
+
+
+.small-div{
+    padding: 10px;
+}
+
+
+.sp{
+border-radius: 5px;
+color: rgb(231, 74, 7);;
+background-color:rgb(231, 227, 218); 
+width: 50px;
+padding: 0 10px 0 10px;
+}
+
+.login{
+    text-decoration: none;
+    color:#3580b8; 
+}
+
+.signup{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.signupBtn a{
+        text-decoration: none;
+}
+
+.forgot-link{
+   text-decoration: none; 
+   color: #01418b;
+}
+
+/* .card:hover{
+transform:translateY(-30px) ;
+} */
+
+span{
+    font-weight: bold;
+}
+/* media query */
+
+@media(min-width:320px) and (max-width:767px) {
+    .sm-div {
+        background-color: white;
+        height: 603px;
+        width: 95%;
+        padding-bottom: 20px;
+        align-items: center;
+        border-radius: 10px;
+
+    }
+
+    .card-ico {
+        width: 98%;
+        height: 180px;
+        padding-bottom: 20px;
+
+    }
+
+    .card-text{
+        font-size: medium;
+    }
+
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .small-div {
+        background-color: white;
+        height: 500px;
+        width: 85%;
+        padding: 30px;
+        align-items: center;
+        border-radius: 20px;
+    
+    }
+
+}
+
+
