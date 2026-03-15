@@ -100,24 +100,32 @@ padding: 0 10px 0 10px;
    color: #01418b;
 }
 
-/* .card:hover{
+.card:hover{
 transform:translateY(-30px) ;
-} */
+}
 
 span{
     font-weight: bold;
 }
+
+.car-para{
+    position: relative;
+    bottom: -50px;
+    left: 0px;
+}
+
 /* media query */
 
 @media(min-width:320px) and (max-width:767px) {
-    .sm-div {
+    
+    .small-div {
         background-color: white;
-        height: 603px;
-        width: 95%;
-        padding-bottom: 20px;
+        height: 500px;
+        width: 85%;
+        padding: 30px;
         align-items: center;
-        border-radius: 10px;
-
+        border-radius: 20px;
+    
     }
 
     .card-ico {
@@ -133,17 +141,5 @@ span{
 
 }
 
-@media(min-width:320px) and (max-width:767px) {
-    .small-div {
-        background-color: white;
-        height: 500px;
-        width: 85%;
-        padding: 30px;
-        align-items: center;
-        border-radius: 20px;
-    
-    }
-
-}
 
 
